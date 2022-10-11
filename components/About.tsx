@@ -9,8 +9,8 @@ function About({}: Props) {
     <motion.div
       className="flex flex-col relative h-screen text-center md:text-left md:flex-row max-w-7xl justify-evenly mx-auto items-center"
       initial={{ x: -500, opacity: 0 }}
-      animate={{ x: 0, opacity: 1 }}
-      // whileInView={{ x: 0, opacity: 1 }}
+      //animate={{ x: 0, opacity: 1 }}
+      whileInView={{ x: 0, opacity: 1 }}
       // viewport={{ once: true }}
       transition={{
         duration: 1.2,
