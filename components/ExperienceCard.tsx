@@ -12,7 +12,7 @@ function ExperienceCard({}: Props) {
         transition={{
           duration: 1.2,
         }}
-        whileInView={{ y: 0, opacity: 1 }}
+        whileInView={{ y: 25, opacity: 1 }}
         viewport={{ once: true }}
         //animate={{ x: 0, opacity: 1 }}
       >
@@ -27,8 +27,8 @@ function ExperienceCard({}: Props) {
 
       <div className="px-0 md:px-10 ">
         <h4 className="text-4xl font-light">CEO of</h4>
-        <p className="font-bold text-2xl mt-1">my home</p>
-        <div className="space-x-4 py-2">
+        <p className="font-bold text-2xl ">my home</p>
+        <div className="mx-24 flex justify-evenly space-x-4 py-2">
           <Image
             className="rounded-full"
             src="/joePic.jpg"
@@ -62,11 +62,11 @@ function ExperienceCard({}: Props) {
           Startet work ... - Ended ...
         </p>
         <ul className="list-disc space-y-4 ml-5 text-lg">
-          <li>Summary points</li>
-          <li>Summary points</li>
-          <li>Summary points</li>
-          <li>Summary points</li>
-          <li>Summary points</li>
+          <li>Summary points Summary points Summary points Summary points</li>
+          <li>Summary points Summary points Summary points Summary points</li>
+          <li>Summary points Summary points Summary points Summary points</li>
+          <li>Summary points Summary points Summary points Summary points</li>
+          <li>Summary points Summary points Summary points Summary points</li>
         </ul>
       </div>
     </article>
