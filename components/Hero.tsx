@@ -20,7 +20,7 @@ function Hero({}: Props) {
     <div className="h-screen flex flex-col space-y-8 items-center justify-center text-center overflow-hidden">
       <BackgroundCircles />
       <Image
-        className="relativ rounded-full mx-auto object-cover"
+        className="relative rounded-full mx-auto object-cover"
         src={"/GIFErstellung3.gif"}
         height="140"
         width="140"

@@ -28,7 +28,7 @@ function ExperienceCard({}: Props) {
       <div className="px-0 md:px-10 ">
         <h4 className="text-4xl font-light">CEO of</h4>
         <p className="font-bold text-2xl ">my home</p>
-        <div className="mx-24 flex justify-evenly space-x-4 py-2">
+        <div className=" flex justify-evenly space-x-4 py-2">
           <Image
             className="rounded-full"
             src="/joePic.jpg"

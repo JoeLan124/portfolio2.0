@@ -10,7 +10,7 @@ function Experience({}: Props) {
       className="h-screen flex relative overflow-hidden flex-col text-left md:flex-row max-w-full px-10 justify-evenly mx-auto items-center"
       initial={{ x: -500, opacity: 0 }}
       //animate={{ x: 0, opacity: 1 }}
-      whileInView={{ x: 0, opacity: 1 }}
+      whileInView={{ x: -60, opacity: 1 }}
       // viewport={{ once: true }}
       transition={{
         duration: 1.2,
