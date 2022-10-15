@@ -16,9 +16,9 @@ function Skill({ directionLeft }: Props) {
         className="w-24 h-24 xl:w-32 xl:h-32 filter group-hover:grayscale transition duration-300 ease-in-out"
       >
         <Image
-          src="/post-12.png"
-          height={150}
-          width={150}
+          src="/test.png"
+          height={100}
+          width={100}
           className="rounded-full border-gray-400 object-cover "
         />
         <div className="absolute top-0 opacity-0 group-hover:opacity-80 transition duration-300 ease-in-out group-hover:bg-white h-24 w-24 md:h-28 md:w.28 xl:h32 xl:w-32 rounded-full z-0">

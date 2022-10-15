@@ -7,7 +7,7 @@ type Props = {};
 function Skills({}: Props) {
   return (
     <motion.div
-      className="h-screen flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center"
+      className="h-screen flex relative flex-col text-center md:text-left xl:flex-row max-w-[2000px] xl:px-10 justify-center xl:space-y-0 mx-auto items-center"
       initial={{ opacity: 0 }}
       //animate={{ x: 0, opacity: 1 }}
       whileInView={{ opacity: 1 }}
